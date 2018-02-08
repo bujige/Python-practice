@@ -1,3 +1,5 @@
+# coding=UTF-8
+
 def power(x, n=2):
     s = 1
     while n > 0:
@@ -15,6 +17,12 @@ def calc_sum(*number):
 def person(name, age, **kw):
     print('name:', name, 'age:', age, 'other:', kw)
 
+
+def example(name, age, *, city, job):
+    print(name, age, city, job)
+
+
+
 # print power(5)
 # print power(5,3)
 
@@ -25,3 +33,5 @@ person('XiaoMing', 22, job='developer')
 person('Adam', 45, gender='M', job='Engineer')
 extra = {'city': 'Beijing', 'job': 'Engineer'}
 person('Jack', 24, **extra)
+
+example('Jack', 24, city='Beijing', job='Engineer')
