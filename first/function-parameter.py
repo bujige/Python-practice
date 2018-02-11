@@ -18,7 +18,7 @@ def person(name, age, **kw):
     print('name:', name, 'age:', age, 'other:', kw)
 
 
-def example(name, age, *, city, job):
+def example(name, age, *, city='handan', job):
     print(name, age, city, job)
 
 
@@ -34,4 +34,4 @@ person('Adam', 45, gender='M', job='Engineer')
 extra = {'city': 'Beijing', 'job': 'Engineer'}
 person('Jack', 24, **extra)
 
-example('Jack', 24, city='Beijing', job='Engineer')
+# example('Jack', 24, city='Beijing', job='Engineer')
