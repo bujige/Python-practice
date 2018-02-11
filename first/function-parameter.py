@@ -19,6 +19,7 @@ def person(name, age, **kw):
 
 
 def example(name, age, *, city='handan', job):
+def emample(name,age,*,city='hongkong', job='coder'):
     print(name, age, city, job)
 
 
@@ -35,3 +36,4 @@ extra = {'city': 'Beijing', 'job': 'Engineer'}
 person('Jack', 24, **extra)
 
 # example('Jack', 24, city='Beijing', job='Engineer')
+emample('Jack', 24, city='Beijing', job='Engineer')
