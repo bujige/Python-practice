@@ -21,11 +21,13 @@ def search(path, fileName):
                 if os.path.isfile(path + virgule + file):   # 当前路径为文件
                     if fileName in file:   # 当前文件包含 fileName
                         print(file, '=>', path + virgule + file)
+                        os.remove(path + virgule + file)
                 else:   # 当前路径为目录，则递归遍历
                     searchCurrent(path + virgule + file, fileName, virgule)
         else:
             if fileName in file:  # 当前文件包含 fileName
                 print(file, '=>', path + virgule + file)
+                os.remove(path + virgule + file)
 
     virgule = ''
     # 根据系统判断分隔符
@@ -36,4 +38,4 @@ def search(path, fileName):
     searchCurrent(path, fileName, virgule)
 
 
-search('/Users/doc88/Desktop', 'xml')
+search('/Users/doc88/Desktop/Daily Work/书籍相关/mobi 电子书', '副本')
