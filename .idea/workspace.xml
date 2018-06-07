@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/first/slice.py" line="4" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49972ff7-fdad-460c-85ea-2f357835c68a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Doulist-book-Spider/spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first/file-practice.py" afterPath="$PROJECT_DIR$/first/file-practice.py" />
-    </list>
+    <list default="true" id="49972ff7-fdad-460c-85ea-2f357835c68a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
